@@ -1,0 +1,48 @@
+
+
+body{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+ 
+  header{
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            text-align: center;
+            p{
+                margin: 0;
+                font-size: 30px;
+            }
+            .nav-icons{
+                align-self: end;
+                text-align-last:justify ;
+                width: 100px;
+                a{
+                    text-decoration: none;
+                }
+                
+        }
+        
+    }
+}
+ main{
+   section{
+    .cards{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(auto-fill,minmax(330px,1fr));
+        gap: 40px;
+        .cards-content{
+            img{
+                width: 360px;
+                height: 360px;
+            }
+        }
+    }  
+}
+}
+
+
+}
